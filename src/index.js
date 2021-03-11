@@ -12,6 +12,7 @@ function start(client) {
             message.from,
             message.body,
             message.sender.name
+            //message.sender.pushname
         );
         for (let index = 0; index < resp.length; index++) {
             const element = resp[index];
